@@ -1,0 +1,42 @@
+.services
+  background: #b24a50 url("../img/services_bg.jpg") no-repeat center center / cover
+  height: auto
+  display: flex
+  flex-direction: column
+  align-items: center
+
+  overflow: auto
+  +menu
+  .services__container
+    display: flex
+    flex-direction: row
+    justify-content: center
+    flex-wrap: wrap
+    .card
+      padding: 15px 10px
+      margin: 10px
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: space-around
+      width: 260px
+      height: 400px
+      background-color: #c8535a
+      opacity: 0.8
+      transition: 0.3s
+      cursor: pointer
+      &:hover
+        transform: scaleX(1.03)
+      h3
+        color: #ffffff
+        font-size: 30px
+        font-weight: 300
+
+        text-transform: uppercase
+        text-align: center
+      p
+        color: #fefefe
+        font-size: 14px
+        font-weight: 400
+
+        text-align: center

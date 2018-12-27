@@ -1,0 +1,67 @@
+.about
+  background: #665464 url("../img/about_bg.jpg") no-repeat center center / cover
+  padding-bottom: 100px
+  +menu
+  .title
+    p
+      margin-bottom: -100px
+
+  .about__container
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: center
+
+    .card
+      display: flex
+      flex-direction: column
+      align-items: center
+      background: rgba(77,63,75,0.5)
+      padding: 40px 0
+      margin: 10px
+        top: 50px
+      cursor: pointer
+
+      &:hover
+        ul
+          li
+            p
+              color: #ff8973
+            h3
+              color: #ffffff
+
+          .face
+              background: url("../img/services/peopleR.svg") no-repeat center center
+
+
+      li
+        padding: 0
+        margin: 0 auto
+      .face
+        background: url("../img/services/people.svg") no-repeat center center
+        height: 170px
+        width: 170px
+
+      ul
+        text-align: center
+        padding: 0
+        margin: 0 auto
+        li
+          transition: 0.3s
+        h3
+          color: #c7b6c5
+          font-size: 25px
+          font-weight: 400
+          padding: 0
+          text-transform: uppercase
+        p
+          color: #a1ca6c
+          font-size: 14px
+
+      .social
+        display: flex
+        flex-direction: row
+        margin: 10px
+
+
+

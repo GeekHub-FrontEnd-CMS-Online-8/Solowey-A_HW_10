@@ -1,0 +1,62 @@
+.work
+  background: #81a256 url("../img/work_bg.jpg") no-repeat center center / cover
+  +menu
+  .portfolio
+    border-top: 1px solid #94b963
+    border-bottom: 1px solid #94b963
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+    ul
+      display: flex
+      flex-direction: row
+      flex-wrap: wrap
+      li
+        margin: 10px
+        a
+          cursor: pointer
+          color: #ffffff
+          padding: 10px
+          border-radius: 4px
+          transition: 0.3s
+          &:hover
+            background-color: #f5c149
+  .container__inner
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: center
+    .galery
+      &__item
+        padding: 0
+        margin: 5px
+        border-radius: 3px
+        background: rgba(61,77,41,0.70)
+        text-align: center
+        cursor: pointer
+        position: relative
+
+        p
+          color: #727272
+          font-size: 14px
+          font-weight: 400
+          background-color: #eeeeee
+          padding: 25px
+          text-transform: uppercase
+          margin: 0 auto
+        .plus
+          top: 70px
+          left: 110px
+          position: absolute
+          opacity: 0
+          transition: 0.3s
+        &:hover
+          .inner
+            img
+              opacity: 0.5
+          .plus
+            opacity: 1
+
+
