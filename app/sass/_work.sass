@@ -1,6 +1,11 @@
 .work
   background: #81a256 url("../img/work_bg.jpg") no-repeat center center / cover
+  padding-bottom: 50px
   +menu
+  .title
+    p
+      color: #ffffff
+      line-height: 24px
   .portfolio
     border-top: 1px solid #94b963
     border-bottom: 1px solid #94b963
@@ -9,14 +14,15 @@
     flex-wrap: wrap
     justify-content: space-between
     align-items: center
+    margin-bottom: 50px
     ul
       display: flex
       flex-direction: row
       flex-wrap: wrap
       li
         margin: 10px
+        cursor: pointer
         a
-          cursor: pointer
           color: #ffffff
           padding: 10px
           border-radius: 4px

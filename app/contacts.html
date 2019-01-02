@@ -50,11 +50,11 @@
             <nav class="nav">
 
                 <ul>
-                    <li><a class="contacts__item" href="index.html">Home</a></li>
-                    <li><a class="contacts__item" href="services.html">Services</a></li>
-                    <li><a class="contacts__item" href="about.html">About</a></li>
-                    <li><a class="contacts__item" href="work.html">Work</a></li>
-                    <li><a class="contacts__item" href="contacts.html">Contacts</a></li>
+                    <li><a class="contacts__item-home" href="index.html">Home</a></li>
+                    <li><a class="contacts__item-service" href="services.html">Services</a></li>
+                    <li><a class="contacts__item-about" href="about.html">About</a></li>
+                    <li><a class="contacts__item-work" href="work.html">Work</a></li>
+                    <li><a class="contacts__item-contacts" href="contacts.html">Contacts</a></li>
                 </ul>
             </nav>
 
@@ -71,10 +71,56 @@
                 Ut luctus imperdiet lacus, eget laoreet erat posuere quis.
             </p>
         </section>
+
+        <div class="container__info">
+            <div class="info">
+            <h2>Address</h2>
+            <h4>Acrostia</h4>
+            <h5>Sevenoaks Rd</h5>
+            <h5 class="street">Sevenoaks TN14 7HR, UK</h5>
+            <h6>Phone: &nbsp &nbsp &nbsp +44 555 555 555</h6>
+            <h6>Fax: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp +44 556  555 555</h6>
+
+                <h6>E-mail:	&nbsp &nbsp<span>info@acrostia.com</span></h6>
+            <h6>Skype:	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Ac0stia</h6>
+            </div>
+            <div id="map">
+                <script async defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
+
+                </script>
+            </div>
+            <form action="#">
+                <h2>Ask a question</h2>
+                <div class="wrap">
+
+                    <label for="#name"></label><input type="text" placeholder="Name" class="name" id="#name">
+                    <label for="#mail"></label><input type="text" placeholder="Mail" id="#mail">
+                </div>
+                <label><textarea name="" id="" cols="30" rows="6" placeholder="Your question"></textarea></label>
+                <label ><button class="submit">send</button></label>
+            </form>
+        </div>
+
+
     </div>
 
 
-
+    <footer>
+        <div class="container">
+            <div class="social facebook">
+                <a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+            </div>
+            <div class="social twitter">
+                <a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+            </div>
+            <div class="social google-pluse">
+                <a href="#" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
+            </div>
+            <div class="social linkedin">
+                <a href="#" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
 
 
 
@@ -89,5 +135,6 @@
 <script src="js/slider_js/jquery.cbpFWSlider.min.js"></script>
 <script src="js/common.js"></script>
 <script src="js/classie.js"></script>
+<script src="js/map.js"></script>
 </body>
 </html>
